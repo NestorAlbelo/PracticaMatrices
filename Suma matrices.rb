@@ -36,4 +36,3 @@ for i in (0..2)
 	puts
 end
 
-
