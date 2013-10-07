@@ -37,5 +37,18 @@ for i in (0..2)
 end
 
 
+for i in 0..a.length-1
+	for j in 0..a.length-1
+		for k in 0..a.length-1
+			C[i][j]+=A[i][k]*B[k][j]
+		end
+	end
+end
 
+for i in 0..a.length-1
+	for j in 0..a.length-1
+		print "#{C[i][j]} "	
+	end
+	puts
+end
 
